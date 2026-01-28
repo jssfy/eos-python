@@ -1,7 +1,7 @@
 # Eos Python API library
 
 <!-- prettier-ignore -->
-[![PyPI version](https://img.shields.io/pypi/v/evermindeos.svg?label=pypi%20(stable))](https://pypi.org/project/evermindeos/)
+[![PyPI version](https://img.shields.io/pypi/v/evermind-eos.svg?label=pypi%20(stable))](https://pypi.org/project/evermind-eos/)
 
 The Eos Python library provides convenient access to the Eos REST API from any Python 3.9+
 application. The library includes type definitions for all request params and response fields,
@@ -17,7 +17,7 @@ The full API of this library can be found in [api.md](api.md).
 
 ```sh
 # install from PyPI
-pip install evermindeos
+pip install evermind-eos
 ```
 
 ## Usage
@@ -83,7 +83,7 @@ You can enable this by installing `aiohttp`:
 
 ```sh
 # install from PyPI
-pip install evermindeos[aiohttp]
+pip install evermind-eos[aiohttp]
 ```
 
 Then you can enable it by instantiating the client with `http_client=DefaultAioHttpClient()`:
